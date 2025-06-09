@@ -1,0 +1,12 @@
+class BankAccount:
+    def __init__(self,balance):
+        self .__balane = balance
+
+    def get_balance(self):
+        return self.__balane
+    
+    def set_balance(self,amount):
+        if amount >= 0:
+            self.__balane = amount
+        else :
+            print("ไม่สามารถกำหนดยอดเงินติดลบได้")
